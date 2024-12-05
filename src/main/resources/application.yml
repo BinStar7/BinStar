@@ -12,10 +12,6 @@ spring:
     multipart:
       max-file-size: 100MB
       max-request-size: 100MB
-  thymeleaf:
-    mode: HTML
-    cache: false
-    prefix: classpath:/static
 
 # 配置mybatis实体和xml映射
 mybatis:
@@ -25,4 +21,4 @@ mybatis:
     map-underscore-to-camel-case: true
 
 # 文件上传的前缀url
-fileBaseUrl: http://localhost:9090
+fileBaseUrl: http://192.168.169.111:9090
