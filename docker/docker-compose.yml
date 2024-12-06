@@ -1,0 +1,10 @@
+version: '3.1'
+services:
+  jenkins-test_demo:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: jenkins-demo:v1.0.0
+    container_name: jenkins-demo-1
+    ports:
+      - 1010:9090
