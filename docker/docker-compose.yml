@@ -3,7 +3,7 @@ services:
     build:
       context: ./
       dockerfile: Dockerfile
-    image: jenkins-demo:v2.0.5
-    container_name: jenkins-demo2.0.5
+    image: jenkins-demo:v3.0.0
+    container_name: jenkins-demo3.0.0
     ports:
       - 9090:9090
